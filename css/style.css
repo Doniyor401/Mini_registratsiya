@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto";
+    background: white
+  }
+  
+  a {
+    /* a tagidan tegidegi chizuni ob tashidi */
+    text-decoration: none;
+    /* a tagidan ko'k rangni ob tashidi */
+    color: unset;
+  }
+  
+  ul {
+    /* li taglari oldidegi nuqtani ob tashidi */
+    list-style: none;
+  }
+
+  .btn {
+   border: 0;
+  }
+  .btn:active {
+    transform: scale(0.8);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .container-sm {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* details start */
+  .details {
+    
+}
+.container {
+    background-color: #a9c041da;
+    padding: 26px 30px;
+    border-radius: 15px;
+}
+.details-container {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.details-heading {
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.details-card {
+  display: flex;
+  border: 3px solid rgba(211, 241, 141, 0.486);
+  background: rgba(230, 253, 176, 0.315);
+  padding: 5px 20px;
+  border-radius: 10px;
+  gap: 127px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.details-card-lift {
+  
+}
+.details-card-lift-title {
+  margin-top: 3px;
+}
+.details-card-right {
+}
+.details-card-right-form {
+   
+}
+.details-card-right-input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+  /* details end */
